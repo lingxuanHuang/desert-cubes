@@ -21,23 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="html.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="html.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0">
+            <state vertical-scroll-proportion="-38.42857">
               <caret line="104" column="10" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="common.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/common.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="268" column="5" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
+            <state vertical-scroll-proportion="-5.540187">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding>
-                <element signature="e#3896#4171#0" expanded="false" />
+                <element signature="e#3894#4169#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -78,9 +78,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/mixin.less" />
-        <option value="$PROJECT_DIR$/css/common.less" />
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/html.html" />
+        <option value="$PROJECT_DIR$/css/common.less" />
       </list>
     </option>
   </component>
@@ -284,7 +284,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="268" column="5" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
           <folding>
-            <element signature="e#3896#4171#0" expanded="false" />
+            <element signature="e#3894#4169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -318,7 +318,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3896#4171#0" expanded="false" />
+            <element signature="e#3894#4169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -336,16 +336,6 @@
         <state vertical-scroll-proportion="0.24547803">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="268" column="5" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
-          <folding>
-            <element signature="e#3896#4171#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -367,9 +357,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0">
+        <state vertical-scroll-proportion="-38.42857">
           <caret line="104" column="10" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.540187">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#3894#4169#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
