@@ -1,0 +1,367 @@
+.position {
+  position: absolute;
+  left: 0
+  top:0
+  width: 100%;
+  height: 100%;
+}
+.desertSVG {
+  position: relative;
+  width: 658px;
+  height: 369px;
+  margin: auto;
+  background-color: #a9a395;
+  overflow: hidden;
+}
+.desertSVG #bgCa {
+  position: absolute;
+  top: -140px;
+  left: -40px;
+  width: 758px;
+  height: 559px;
+  transform: rotate(30deg);
+}
+.desertSVG svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 658px;
+  height: 369px;
+}
+.desertSVG svg #polygon1 {
+  fill: #49392c;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon2 {
+  fill: #574231;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon3 {
+  fill: #634833;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon4 {
+  fill: #6c4d38;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon5 {
+  fill: #79573c;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon6 {
+  fill: #7d583d;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon7 {
+  fill: #916342;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon8 {
+  fill: #7e573a;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon9 {
+  fill: #7e573a;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon10 {
+  fill: #664b38;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon11 {
+  fill: #634938;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon12 {
+  fill: #6e523d;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon13 {
+  fill: #755944;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon14 {
+  fill: #6f5544;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon15 {
+  fill: #7a563c;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon16 {
+  fill: #71513a;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon16 {
+  fill: #71513a;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon17 {
+  fill: #7b573f;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon18 {
+  fill: #8c6043;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon19 {
+  fill: #8c644b;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .polygon20 {
+  fill: #745239;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon21 {
+  fill: #6d513c;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon22 {
+  fill: #5e4b3c;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon23 {
+  fill: #694f3e;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon24 {
+  fill: #4c4239;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon25 {
+  fill: #5b483a;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon26 {
+  fill: #5e4433;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon27 {
+  fill: #604733;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon28 {
+  fill: #6d5344;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon29 {
+  fill: #6b4f3a;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon30 {
+  fill: #604635;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon31 {
+  fill: #6b4f39;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon32 {
+  fill: #634a36;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon33 {
+  fill: #6f533d;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon34 {
+  fill: #654a37;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon35 {
+  fill: #614834;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon36 {
+  fill: #745843;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg #polygon37 {
+  fill: #7b604f;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .cube2_1 {
+  fill: #76757a;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .cube2_2 {
+  fill: #fdf9dc;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .cube3_1 {
+  fill: #7f7f81;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .cube3_2 {
+  fill: #fffdd7;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .cube4_1 {
+  fill: #7c8083;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .cube4_2 {
+  fill: #f3e3ca;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .cube4_3 {
+  fill: #5c5044;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .cube5_1 {
+  fill: #ccc3ba;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .cube5_2 {
+  fill: #f3e3ca;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .cube5_3 {
+  fill: #5c5044;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG svg .cube6_1 {
+  fill: #888c98;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube1Out {
+  position: relative;
+  width: 95px;
+  height: 80px;
+  overflow: hidden;
+  top: 150px;
+  left: 100px;
+}
+.desertSVG .cube1Out #cube1 {
+  top: -150px;
+  left: -100px;
+}
+.desertSVG .cube1Out #cube1 .cube1_1 {
+  fill: #817f80;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube1Out #cube1 .cube1_2 {
+  fill: #fff3c9;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube1Out #cube1 .cube1_3 {
+  fill: #5e442b;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_1 {
+  fill: #ffffe5;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_2 {
+  fill: #dec398;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_3 {
+  fill: #665b55;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_4 {
+  fill: #5f5148;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_5 {
+  fill: #fae9bb;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_6 {
+  fill: #665b55;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_7 {
+  fill: #594b42;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_8 {
+  fill: #7c7e7d;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_9 {
+  fill: #8a8e91;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_10 {
+  fill: #665c55;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_11 {
+  fill: #fefbdc;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_12 {
+  fill: #7a7b7f;
+  stroke-width: 0;
+  stroke: none;
+}
+.desertSVG .cube7Out .cube7_12 {
+  fill: #7a7b7f;
+  stroke-width: 0;
+  stroke: none;
+}

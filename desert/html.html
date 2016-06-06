@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>沙漠中的立方体</title>
+    <link rel="stylesheet" href="css/common.css"/>
+</head>
+<body>
+    <div class="desertSVG">
+        <canvas id="bgCa"></canvas>
+        <svg id="svg1" xmlns="http://www.w3.org/2000/svg" version="1.1" >
+            <polygon id="polygon1" points="0,246 39,279 0,294"/>
+            <polygon id="polygon2" points="0,246 57,271 39,279"/>
+            <polygon id="polygon3" points="0,246 21,240 57,271"/>
+            <polygon id="polygon4" points="21,240 88,268 57,271"/>
+            <polygon id="polygon5" points="21,240 73,238 88,268"/>
+            <polygon id="polygon6" points="73,238 93,240 113,273 88,268"/>
+            <polygon id="polygon7" points="93,240 145,258, 172,302 113,273"/>
+            <polygon id="polygon8" points="145,258 167,267 172,302"/>
+            <polygon id="polygon9" points="167,267 236,294, 172,302"/>
+            <polygon id="polygon10" points="236,294 199,312 172,302"/>
+            <polygon id="polygon11" points="236,294 243,310 199,312"/>
+            <polygon id="polygon12" points="236,294 358,292 243,310"/>
+            <polygon id="polygon13" points="358,292 274,317 243,310"/>
+            <polygon id="polygon14" points="243,310 274,317 199,312"/>
+
+            <polygon id="polygon15" points="0,294 27,283 128,299 131,313 40,313 0,320"/>
+            <polygon id="polygon16" points="27,283 57,271 128,299" />
+            <polygon id="polygon17" points="57,271 88,268 113,273 128,299"/>
+            <polygon id="polygon18" points="113,273 172,302 199,312 172,312 128,299  "/>
+            <polygon id="polygon19" points="128,299 172,312 131,313"/>
+
+            <polygon class="polygon20" points="199,312 163,369 172,312"/>
+            <polygon class="polygon20" points="172,312 163,369 131,313"/>
+            <polygon class="polygon20" points="131,313 163,369 40,313"/>
+            <polygon class="polygon20" points=" 40,313 163,369 0,320"/>
+            <polygon class="polygon20" points=" 0,320 163,369 0,370"/>
+
+
+            <polygon id="polygon21" points=" 199,312 274,317 170,358"/>
+            <polygon id="polygon22" points=" 274,317 235,348 170,358 "/>
+            <polygon id="polygon23" points=" 235,348 215,369 163,369 170,358"/>
+            <polygon id="polygon24" points=" 413,282 235,348 274,317 358,292"/>
+            <polygon id="polygon25" points=" 502,272 261,369 215,369 235,348 413,282"/>
+            <polygon id="polygon26" points=" 393,316 476,369 261,369"/>
+            <polygon id="polygon27" points=" 415,307 582,369 476,369 393,316"/>
+            <polygon id="polygon28" points=" 511,272 426,311 415,307 502,272"/>
+            <polygon id="polygon29" points=" 472,290 505,318 461,324 426,311"/>
+            <polygon id="polygon30" points=" 505,318 582,369 461,324"/>
+            <polygon id="polygon31" points=" 505,318 543,316 625,369 582,369"/>
+            <polygon id="polygon32" points=" 590,309 657,369 625,369 543,316"/>
+            <polygon id="polygon33" points=" 590,309 657,306 657,369"/>
+            <polygon id="polygon34" points=" 496,279 543,316 505,318 472,290 "/>
+            <polygon id="polygon35" points=" 558,272 590,309 543,316 496,279 511,272"/>
+            <polygon id="polygon36" points=" 582,274 657,294 657,306 590,309 558,272"/>
+            <polygon id="polygon37" points=" 582,274 657,279 657,294 "/>
+        </svg>
+
+        <div class="cube1Out">
+            <svg id="cube1" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <polygon class="cube1_1" points="130,162 173 170 157,216 114,206"/>
+                <polygon class="cube1_2" points="173 170 191,185 176,229 158,216"/>
+                <polygon class="cube1_3" points="114,206 157,216 176,229 135,219"/>
+            </svg>
+        </div>
+
+        <div class="cube7Out">
+            <svg id="cube7" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <polygon class="cube7_1" points="46,120 62,112 82,134 67,142 56,130 58,124 51,125"/>
+                <polygon class="cube7_2" points="67,142 82,134 65,151 50,159"/>
+                <polygon class="cube7_3" points="56,130 67,142 50,159 43,153 44,144 55,147"/>
+                <polygon class="cube7_4" points="48,135 55,147 44,144 34,131"/>
+                <polygon class="cube7_5" points="48,135 58,124 52,142"/>
+                <polygon class="cube7_6" points="56,130 55,147 52,142"/>
+                <polygon class="cube7_7" points="44,144 43,153 32,151 38,136"/>
+                <polygon class="cube7_8" points="38,136 32,151 23,141 31,120 33,120 40,124 34,131"/>
+                <polygon class="cube7_9" points="58,124 48,135 34,131 46,118 46,120 42,125 50,125"/>
+                <polygon class="cube7_10" points="51,125 42,125 46,120"/>
+                <polygon class="cube7_11" points="46,105 64,111 64,114 62,112 46,120 "/>
+                <polygon class="cube7_12" points="46,105 46,118 40,124 31,122 33,114"/>
+            </svg>
+        </div>
+        <svg id="svg2" xmlns="http://www.w3.org/2000/svg" version="1.1" >
+
+
+            <polygon class="cube2_1" points="350,318 364,344 326,344"/>
+            <polygon class="cube2_2" points="350,318 384,320 364,344"/>
+
+            <polygon class="cube3_1" points="443,293 479,292 479 325 443,325"/>
+            <polygon class="cube3_2" points="479,292 484,302 479 325"/>
+
+
+            <polygon class="cube4_1" points="525,251 533,289 518,304 496,289 496,284"/>
+            <polygon class="cube4_2" points="525,251 570,269 580 307 533,289"/>
+            <polygon class="cube4_3" points="518,304 533,289 580 307"/>
+
+
+            <polygon class="cube5_1" points="605,327 655,350 639,369 624,369 583,349"/>
+            <polygon class="cube5_2" points="655,357 644,369 639,369 655,350"/>
+            <polygon class="cube5_3" points="583,349 624,369 608,369 583,355"/>
+
+
+            <polygon class="cube6_1" points="651,279 658,285 658,291 638,287"/>
+        </svg>
+    </div>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

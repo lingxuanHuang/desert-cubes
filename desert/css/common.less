@@ -1,0 +1,271 @@
+//引入less文件
+@import "mixin";
+
+//沙漠
+.desertSVG{
+  position: relative;
+  width: 658px;
+  height:369px;
+  margin: auto;
+  background-color: #a9a395;
+  overflow: hidden;
+  //渐变背景
+  #bgCa{
+    position: absolute;
+    top: -140px;
+    left: -40px;
+    width: 758px;
+    height: 559px;
+    transform: rotate(30deg);
+  }
+
+  //每块沙漠
+  svg{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 658px;
+    height: 369px;
+
+    //每块沙漠
+    #polygon1{
+      .fill(@shape: polygon,@fill: #49392c);
+    }
+    #polygon2{
+      .fill(@shape: polygon,@fill: #574231);
+    }
+    #polygon3{
+      .fill(@shape: polygon,@fill: #634833);
+    }
+    #polygon4{
+      .fill(@shape: polygon,@fill: #6c4d38);
+    }
+    #polygon5{
+      .fill(@shape: polygon,@fill: #79573c);
+    }
+    #polygon6{
+      .fill(@shape: polygon,@fill: #7d583d);
+    }
+    #polygon7{
+      .fill(@shape: polygon,@fill: #916342);
+    }
+    #polygon8{
+      .fill(@shape: polygon,@fill: #7e573a);
+    }
+    #polygon9{
+      .fill(@shape: polygon,@fill: #7e573a);
+    }
+    #polygon10{
+      .fill(@shape: polygon,@fill: #664b38);
+    }
+    #polygon11{
+      .fill(@shape: polygon,@fill: #634938);
+    }
+    #polygon12{
+      .fill(@shape: polygon,@fill: #6e523d);
+    }
+    #polygon13{
+      .fill(@shape: polygon,@fill: #755944);
+    }
+    #polygon14 {
+      .fill(@shape: polygon,@fill: #6f5544);
+    }
+
+    #polygon15 {
+      .fill(@shape: polygon,@fill: #7a563c);
+    }
+    #polygon16 {
+      .fill(@shape: polygon,@fill: #71513a);
+    }
+    #polygon16 {
+      .fill(@shape: polygon,@fill: #71513a);
+    }
+    #polygon17 {
+      .fill(@shape: polygon,@fill: #7b573f);
+    }
+    #polygon18 {
+      .fill(@shape: polygon,@fill: #8c6043);
+    }
+    #polygon19 {
+      .fill(@shape: polygon,@fill: #8c644b);
+    }
+    .polygon20{
+      .fill(@shape: polygon,@fill: #745239);
+    }
+    #polygon21 {
+      .fill(@shape: polygon,@fill: #6d513c);
+    }
+    #polygon22 {
+      .fill(@shape: polygon,@fill: #5e4b3c);
+    }
+    #polygon23 {
+      .fill(@shape: polygon,@fill: #694f3e);
+    }
+    #polygon24 {
+      .fill(@shape: polygon,@fill: #4c4239);
+    }
+
+    #polygon25 {
+      .fill(@shape: polygon,@fill: #5b483a);
+    }
+    #polygon26 {
+      .fill(@shape: polygon,@fill: #5e4433);
+    }
+    #polygon27 {
+      .fill(@shape: polygon,@fill: #604733);
+    }
+    #polygon28 {
+      .fill(@shape: polygon,@fill: #6d5344);
+    }
+    #polygon29 {
+      .fill(@shape: polygon,@fill: #6b4f3a);
+    }
+    #polygon30 {
+      .fill(@shape: polygon,@fill: #604635);
+    }
+    #polygon31 {
+      .fill(@shape: polygon,@fill: #6b4f39);
+    }
+    #polygon32 {
+      .fill(@shape: polygon,@fill: #634a36);
+    }
+    #polygon33 {
+      .fill(@shape: polygon,@fill: #6f533d);
+    }
+    #polygon34 {
+      .fill(@shape: polygon,@fill: #654a37);
+    }
+    #polygon35 {
+      .fill(@shape: polygon,@fill: #614834);
+    }
+    #polygon36 {
+      .fill(@shape: polygon,@fill: #745843);
+    }
+    #polygon37 {
+      .fill(@shape: polygon,@fill: #7b604f);
+    }
+
+
+
+
+
+
+    //立方体2
+    .cube2_1{
+      .fill(@shape:polygon,@fill:#76757a);
+    }
+    .cube2_2{
+      .fill(@shape:polygon,@fill:#fdf9dc);
+    }
+
+    //立方体3
+    .cube3_1{
+      .fill(@shape:polygon,@fill:#7f7f81);
+    }
+    .cube3_2{
+      .fill(@shape:polygon,@fill:#fffdd7);
+    }
+
+    //立方体4
+    .cube4_1{
+      .fill(@shape:polygon,@fill:#7c8083);
+    }
+    .cube4_2{
+      .fill(@shape:polygon,@fill:#f3e3ca);
+    }
+    .cube4_3{
+      .fill(@shape:polygon,@fill:#5c5044);
+    }
+
+    //立方体5
+    .cube5_1{
+      .fill(@shape:polygon,@fill:#ccc3ba);
+    }
+    .cube5_2{
+      .fill(@shape:polygon,@fill:#f3e3ca);
+    }
+    .cube5_3{
+      .fill(@shape:polygon,@fill:#5c5044);
+    }
+
+
+    //立方体6
+    .cube6_1{
+      .fill(@shape:polygon,@fill:#888c98);
+    }
+
+
+
+
+
+  }
+
+
+  .cube1Out{
+    position: relative;
+    width: 95px;
+    height: 80px;
+    overflow: hidden;
+    top: 150px;
+    left: 100px;
+
+    #cube1{
+      top: -150px;
+      left: -100px;
+      //立方体1
+      .cube1_1{
+        .fill(@shape: polygon, @fill: #817f80);
+      }
+      .cube1_2{
+        .fill(@shape: polygon, @fill: #fff3c9);
+      }
+      .cube1_3{
+        .fill(@shape: polygon, @fill: #5e442b);
+      }
+    }
+  }
+
+  .cube7Out{
+
+    //畸形立方体7
+    .cube7_1{
+      .fill(@shape:polygon,@fill:#ffffe5);
+    }
+    .cube7_2{
+      .fill(@shape:polygon,@fill:#dec398);
+    }
+    .cube7_3{
+      .fill(@shape:polygon,@fill:#665b55);
+    }
+    .cube7_4{
+      .fill(@shape:polygon,@fill:#5f5148);
+    }
+    .cube7_5{
+      .fill(@shape:polygon,@fill:#fae9bb);
+    }
+    .cube7_6{
+      .fill(@shape:polygon,@fill:#665b55);
+    }
+    .cube7_7{
+      .fill(@shape:polygon,@fill:#594b42);
+    }
+    .cube7_8{
+      .fill(@shape:polygon,@fill:#7c7e7d);
+    }
+    .cube7_9{
+      .fill(@shape:polygon,@fill:#8a8e91);
+    }
+    .cube7_10{
+      .fill(@shape:polygon,@fill:#665c55);
+    }
+    .cube7_11{
+      .fill(@shape:polygon,@fill:#fefbdc);
+    }
+    .cube7_12{
+      .fill(@shape:polygon,@fill:#7a7b7f);
+    }
+    .cube7_12{
+      .fill(@shape:polygon,@fill:#7a7b7f);
+    }
+  }
+}

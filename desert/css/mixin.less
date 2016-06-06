@@ -1,0 +1,12 @@
+.position{
+  position: absolute;
+  left:0
+  top:0
+  width: 100%;
+  height: 100%;
+}
+.fill(@shape,@fill,@stroke-width:0,@strokeBg:none) when(@shape = polygon){
+  fill:@fill;
+  stroke-width:@stroke-width;
+  stroke:@strokeBg;
+}
